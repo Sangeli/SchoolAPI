@@ -1,0 +1,16 @@
+{
+  "name": "SchoolAPI",
+  "description": "API for a school",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "mocha test/*Spec.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "express": "^4.14.0",
+    "mysql": "^2.12.0",
+    "sequelize": "^3.29.0"
+  },
+  "devDependencies": {}
+}
